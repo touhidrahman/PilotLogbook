@@ -1,0 +1,1858 @@
+- 22:38:23.016 INFO: --------------------------------------------------------
+- 22:38:23.016 INFO: Started application
+- 22:38:23.016 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 22:38:23.016 INFO: Log level = DEBUG4
+- 22:38:23.031 INFO: Starting Mongoose 3.9b web server
+- 22:38:23.031 INFO: WWW directory: C:\MatrikaDCMS\www
+- 22:38:23.031 INFO: Index files: index.html,index.php
+- 22:38:23.031 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 22:38:23.031 INFO: CGI pattern: **.php$
+- 22:38:23.031 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 22:38:23.031 INFO: Web server url: http://127.0.0.1:49933/
+- 22:38:23.031 INFO: remote_debugging_port = 56726
+- 22:38:23.031 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=56726 --no-sandbox
+[0531/223823:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:23.047 DEBUG: App::OnContextInitialized()
+- 22:38:23.047 DEBUG: Window max width/height = 1286/680
+- 22:38:23.047 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 22:38:23.063 DEBUG: GetBrowserWindow(): not found, hwnd = 1966786
+- 22:38:23.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:38:23.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:38:23.063 DEBUG: StoreBrowserWindow(): hwnd = 1966786
+- 22:38:23.063 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 22:38:23.063 DEBUG: ClientHandler::OnAfterCreated()
+- 22:38:23.063 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:38:23.063 INFO: DPI, ppix = 96, ppiy = 96
+- 22:38:23.063 INFO: DPI, browser zoom level = 0
+- 22:38:23.078 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:23.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="3504.0.1731936925\838769292" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2768 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 22:38:23.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --channel="3504.1.490145964\547984424" /prefetch:673131151
+- 22:38:23.016 DEBUG: OnBrowserCreated()
+- 22:38:24.266 INFO: GET 200 /
+- 22:38:24.187 DEBUG: OnContextCreated()
+- 22:38:24.360 DEBUG: OnLoadingStateChange: loading = 0
+[0531/223828:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:29.469 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:29.500 INFO: GET 200 /chrome-version.php
+- 22:38:29.422 DEBUG: OnContextCreated()
+- 22:38:29.563 DEBUG: OnLoadingStateChange: loading = 0
+- 22:38:32.235 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:32.266 INFO: GET 200 /index.php
+- 22:38:32.172 DEBUG: OnContextCreated()
+- 22:38:32.266 DEBUG: OnLoadingStateChange: loading = 0
+[0531/223833:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:34.672 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:34.766 INFO: GET 200 /cookies.php
+- 22:38:34.687 DEBUG: OnContextCreated()
+- 22:38:34.797 DEBUG: OnLoadingStateChange: loading = 0
+- 22:38:36.360 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:36.469 INFO: GET 302 /cookies.php?create=1
+- 22:38:36.531 INFO: GET 200 /cookies.php
+- 22:38:36.437 DEBUG: OnContextCreated()
+- 22:38:36.531 DEBUG: OnLoadingStateChange: loading = 0
+[0531/223838:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:40.985 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:40.016 INFO: GET 200 /index.php
+- 22:38:40.937 DEBUG: OnContextCreated()
+- 22:38:40.031 DEBUG: OnLoadingStateChange: loading = 0
+- 22:38:42.281 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:42.360 INFO: GET 200 /download.php
+- 22:38:42.266 DEBUG: OnContextCreated()
+- 22:38:42.375 DEBUG: OnLoadingStateChange: loading = 0
+[0531/223843:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223848:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:51.094 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:51.141 INFO: GET 200 /download.php?getit=1
+- 22:38:51.203 DEBUG: OnLoadError
+- 22:38:51.203 DEBUG: OnLoadingStateChange: loading = 0
+- 22:38:51.250 INFO: About to download a file: phpdesktop.txt
+- 22:38:53.016 INFO: Download was cancelled
+[0531/223853:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:38:54.235 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:54.266 INFO: GET 200 /index.php
+- 22:38:54.187 DEBUG: OnContextCreated()
+- 22:38:54.281 DEBUG: OnLoadingStateChange: loading = 0
+- 22:38:56.078 DEBUG: OnLoadingStateChange: loading = 1
+- 22:38:56.110 INFO: GET 200 /env-variables.php
+- 22:38:56.016 DEBUG: OnContextCreated()
+- 22:38:56.110 DEBUG: OnLoadingStateChange: loading = 0
+[0531/223858:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223903:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223908:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223913:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223918:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223923:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223928:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223933:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223938:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223943:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223948:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223953:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/223958:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:00.547 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:00.594 INFO: GET 200 /index.php
+- 22:40:00.500 DEBUG: OnContextCreated()
+- 22:40:00.594 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224003:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:03.641 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:04.672 INFO: GET 200 /forms.php
+- 22:40:04.578 DEBUG: OnContextCreated()
+- 22:40:04.735 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224008:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224013:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224018:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:22.938 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:22.969 INFO: GET 200 /index.php
+- 22:40:22.875 DEBUG: OnContextCreated()
+- 22:40:22.985 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224023:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:23.625 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:24.656 INFO: GET 200 /google.php
+- 22:40:24.562 DEBUG: OnContextCreated()
+- 22:40:24.656 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:25.985 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:25.047 DEBUG: OnLoadError
+- 22:40:25.047 ERROR: Failed to load URL: https://www.google.com/
+- 22:40:25.969 DEBUG: OnContextCreated()
+- 22:40:25.063 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:25.063 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:25.984 DEBUG: OnContextCreated()
+- 22:40:25.078 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:28.156 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:28.062 DEBUG: OnContextCreated()
+- 22:40:28.156 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224028:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:30.938 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:30.969 INFO: GET 200 /index.php
+- 22:40:30.875 DEBUG: OnContextCreated()
+- 22:40:30.969 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224033:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:33.438 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:33.516 INFO: GET 200 /html5-video.php
+- 22:40:33.422 DEBUG: OnContextCreated()
+- 22:40:33.531 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224038:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:39.485 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:39.500 DEBUG: OnLoadError
+- 22:40:39.500 ERROR: Failed to load URL: http://www.youtube.com/watch?v=siOHh0uzcuY&html5=True
+- 22:40:39.406 DEBUG: OnContextCreated()
+- 22:40:39.500 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:39.500 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:39.406 DEBUG: OnContextCreated()
+- 22:40:39.500 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:42.328 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:42.234 DEBUG: OnContextCreated()
+- 22:40:42.328 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224043:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:43.438 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:43.438 DEBUG: OnLoadError
+- 22:40:43.438 ERROR: Failed to load URL: http://mudcu.be/labs/JS1k/BreathingGalaxies.html
+- 22:40:43.344 DEBUG: OnContextCreated()
+- 22:40:43.438 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:43.438 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:43.359 DEBUG: OnContextCreated()
+- 22:40:43.453 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:45.860 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:45.781 DEBUG: OnContextCreated()
+- 22:40:45.875 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:46.735 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:46.797 DEBUG: OnLoadError
+- 22:40:46.797 ERROR: Failed to load URL: http://www.webkit.org/blog-files/3d-transforms/poster-circle.html
+- 22:40:46.703 DEBUG: OnContextCreated()
+- 22:40:46.797 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:46.797 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:46.719 DEBUG: OnContextCreated()
+- 22:40:46.813 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:47.000 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:47.906 DEBUG: OnContextCreated()
+- 22:40:47.016 DEBUG: OnLoadingStateChange: loading = 0
+- 22:40:48.125 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:48.156 INFO: GET 200 /index.php
+- 22:40:48.062 DEBUG: OnContextCreated()
+- 22:40:48.156 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224048:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:52.719 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:52.766 INFO: GET 200 /iframe.php
+- 22:40:52.672 DEBUG: OnContextCreated()
+- 22:40:52.766 DEBUG: OnContextCreated()
+- 22:40:52.860 INFO: GET 200 /chrome-version.php
+- 22:40:52.875 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224053:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:57.641 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:58.672 INFO: GET 200 /index.php
+- 22:40:58.594 DEBUG: OnContextCreated()
+- 22:40:58.719 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224058:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:40:59.172 DEBUG: OnLoadingStateChange: loading = 1
+- 22:40:59.219 INFO: GET 200 /index.php
+- 22:40:59.125 DEBUG: OnContextCreated()
+- 22:40:59.219 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:02.735 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:02.860 INFO: GET 200 /javascript-api.php
+- 22:41:02.766 DEBUG: OnContextCreated()
+- 22:41:02.860 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224103:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:08.891 DEBUG: browser[1] OnProcessMessageReceived: ToggleFullscreen
+[0531/224108:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:11.203 DEBUG: browser[1] OnProcessMessageReceived: ToggleFullscreen
+[0531/224113:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:15.860 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:15.906 INFO: GET 200 /index.php
+- 22:41:15.812 DEBUG: OnContextCreated()
+- 22:41:15.906 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:16.625 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:17.656 INFO: GET 200 /loading-error.php
+- 22:41:17.562 DEBUG: OnContextCreated()
+- 22:41:17.656 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224118:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224123:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:27.469 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:27.469 DEBUG: OnLoadError
+- 22:41:27.469 ERROR: Failed to load URL: asd://non-existent.html
+- 22:41:27.375 DEBUG: OnContextCreated()
+- 22:41:27.469 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:27.469 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:27.375 DEBUG: OnContextCreated()
+- 22:41:27.485 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224128:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:29.422 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:29.328 DEBUG: OnContextCreated()
+- 22:41:29.422 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:31.750 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:31.750 INFO: GET 404 /non-existent.html
+- 22:41:31.750 DEBUG: OnContextCreated()
+- 22:41:31.860 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:33.891 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:33.812 DEBUG: OnContextCreated()
+- 22:41:33.906 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224133:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:34.078 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:34.984 DEBUG: OnContextCreated()
+- 22:41:34.094 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:36.141 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:36.219 INFO: GET 200 /no-cache.php
+- 22:41:36.141 DEBUG: OnContextCreated()
+- 22:41:36.235 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224138:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224143:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:41:44.781 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:44.813 INFO: GET 200 /index.php
+- 22:41:44.719 DEBUG: OnContextCreated()
+- 22:41:44.813 DEBUG: OnLoadingStateChange: loading = 0
+- 22:41:45.391 DEBUG: OnLoadingStateChange: loading = 1
+- 22:41:46.672 INFO: GET 200 /phpinfo.php
+- 22:41:46.578 DEBUG: OnContextCreated()
+- 22:41:46.922 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224148:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224153:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224158:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224203:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224208:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224213:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224218:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224223:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224228:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224233:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:35.906 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:35.812 DEBUG: OnContextCreated()
+- 22:42:35.922 DEBUG: OnLoadingStateChange: loading = 0
+- 22:42:38.781 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:38.860 INFO: GET 200 /popup.php
+- 22:42:38.766 DEBUG: OnContextCreated()
+- 22:42:38.860 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224238:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:40.547 DEBUG: ClientHandler::OnBeforePopup()
+- 22:42:40.547 DEBUG: Window max width/height = 1286/680
+- 22:42:40.453 DEBUG: OnBrowserCreated()
+- 22:42:40.453 DEBUG: OnContextCreated()
+- 22:42:40.610 DEBUG: ClientHandler::OnAfterCreated()
+- 22:42:40.610 DEBUG: GetBrowserWindow(): not found, hwnd = 1115054
+- 22:42:40.610 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 22:42:40.610 DEBUG: StoreBrowserWindow(): hwnd = 1115054
+- 22:42:40.625 DEBUG: Centering popup window relative to its parent
+- 22:42:40.625 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:41.672 INFO: GET 200 /index.php
+- 22:42:41.672 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224243:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:46.485 DEBUG: RemoveBrowserWindow(): hwnd = 1115054
+- 22:42:46.469 DEBUG: OnBrowserDestroyed()
+- 22:42:47.531 DEBUG: ClientHandler::OnBeforePopup()
+- 22:42:47.531 INFO: Setting default size for a popup window 1024/768
+- 22:42:47.531 DEBUG: Window max width/height = 1286/680
+- 22:42:47.531 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 22:42:47.437 DEBUG: OnBrowserCreated()
+- 22:42:47.531 DEBUG: ClientHandler::OnAfterCreated()
+- 22:42:47.531 DEBUG: GetBrowserWindow(): not found, hwnd = 1180590
+- 22:42:47.531 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 22:42:47.531 DEBUG: StoreBrowserWindow(): hwnd = 1180590
+- 22:42:47.547 DEBUG: Centering popup window relative to its parent
+- 22:42:47.547 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:47.500 DEBUG: OnContextCreated()
+- 22:42:47.594 INFO: GET 200 /index.php
+- 22:42:47.594 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224248:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:49.219 DEBUG: RemoveBrowserWindow(): hwnd = 1180590
+- 22:42:49.141 DEBUG: OnBrowserDestroyed()
+- 22:42:50.266 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:50.297 INFO: GET 200 /index.php
+- 22:42:50.203 DEBUG: OnContextCreated()
+- 22:42:50.297 DEBUG: OnLoadingStateChange: loading = 0
+- 22:42:52.891 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:52.922 INFO: GET 200 /session.php
+- 22:42:52.828 DEBUG: OnContextCreated()
+- 22:42:52.922 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224253:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:56.516 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:56.563 INFO: GET 200 /index.php
+- 22:42:56.469 DEBUG: OnContextCreated()
+- 22:42:56.563 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224258:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:42:59.219 DEBUG: OnLoadingStateChange: loading = 1
+- 22:42:59.516 INFO: GET 200 /sqlite.php
+- 22:42:59.422 DEBUG: OnContextCreated()
+- 22:42:59.531 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224303:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224308:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224313:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224318:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224323:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224328:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224333:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:43:35.235 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:35.266 INFO: GET 200 /sqlite.php
+- 22:43:35.187 DEBUG: OnContextCreated()
+- 22:43:35.281 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224338:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:43:40.844 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:40.875 INFO: GET 200 /index.php
+- 22:43:40.781 DEBUG: OnContextCreated()
+- 22:43:40.875 DEBUG: OnLoadingStateChange: loading = 0
+- 22:43:42.203 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:42.266 INFO: GET 200 /temp-dir.php
+- 22:43:42.172 DEBUG: OnContextCreated()
+- 22:43:42.266 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224343:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0531/224348:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:43:52.594 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:52.625 INFO: GET 200 /index.php
+- 22:43:52.547 DEBUG: OnContextCreated()
+- 22:43:52.641 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224353:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:43:55.781 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:55.875 INFO: GET 200 /upload.php
+- 22:43:55.781 DEBUG: OnContextCreated()
+- 22:43:55.891 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224358:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:43:59.672 DEBUG: OnLoadingStateChange: loading = 1
+- 22:43:59.703 INFO: GET 200 /index.php
+- 22:43:59.609 DEBUG: OnContextCreated()
+- 22:43:59.719 DEBUG: OnLoadingStateChange: loading = 0
+[0531/224403:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 22:44:05.078 DEBUG: OnLoadingStateChange: loading = 1
+- 22:44:05.110 INFO: GET 200 /index.php
+- 22:44:05.016 DEBUG: OnContextCreated()
+- 22:44:05.110 DEBUG: OnLoadingStateChange: loading = 0
+- 22:44:07.766 DEBUG: WM_DESTROY
+- 22:44:07.766 DEBUG: RemoveBrowserWindow(): hwnd = 1966786
+- 22:44:07.766 INFO: Stopping Mongoose web server
+- 22:44:07.766 DEBUG: Mongoose webserver stopped immediately
+- 22:44:07.766 DEBUG: RemoveBrowserWindow(): hwnd = 590620
+- 22:44:07.766 DEBUG: GetBrowserWindow(): not found, hwnd = 590620
+- 22:44:07.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:44:07.781 INFO: Ended application
+- 22:44:07.781 INFO: --------------------------------------------------------
+- 22:44:07.687 DEBUG: OnBrowserDestroyed()
+- 07:20:29.047 INFO: --------------------------------------------------------
+- 07:20:29.047 INFO: Started application
+- 07:20:29.047 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 07:20:29.047 INFO: Log level = DEBUG4
+- 07:20:29.047 INFO: Starting Mongoose 3.9b web server
+- 07:20:29.047 INFO: WWW directory: C:\MatrikaDCMS\www
+- 07:20:29.047 INFO: Index files: index.html,index.php
+- 07:20:29.047 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 07:20:29.047 INFO: CGI pattern: **.php$
+- 07:20:29.047 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 07:20:29.063 INFO: Web server url: http://127.0.0.1:49933/
+- 07:20:29.063 INFO: remote_debugging_port = 61566
+- 07:20:29.063 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=61566 --no-sandbox
+- 07:20:29.250 DEBUG: App::OnContextInitialized()
+- 07:20:29.250 DEBUG: Window max width/height = 1286/680
+- 07:20:29.250 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 07:20:29.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1639086
+- 07:20:29.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:20:29.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:20:29.250 DEBUG: StoreBrowserWindow(): hwnd = 1639086
+- 07:20:29.266 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 07:20:29.266 DEBUG: ClientHandler::OnAfterCreated()
+- 07:20:29.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:20:29.282 INFO: DPI, ppix = 96, ppiy = 96
+- 07:20:29.282 INFO: DPI, browser zoom level = 0
+- 07:20:29.282 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:29.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="4196.0.344574429\214011090" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2768 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 07:20:29.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --channel="4196.1.66434841\2145251383" /prefetch:673131151
+- 07:20:30.375 DEBUG: OnBrowserCreated()
+- 07:20:35.860 INFO: GET 302 /
+- 07:20:35.063 INFO: GET 200 /index.php/login
+- 07:20:35.766 DEBUG: OnContextCreated()
+- 07:20:36.094 DEBUG: OnLoadingStateChange: loading = 0
+- 07:20:43.766 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:43.000 INFO: POST 302 /index.php/login/process
+- 07:20:43.844 DEBUG: OnContextCreated()
+- 07:20:43.157 INFO: GET 200 /index.php/home
+- 07:20:43.454 INFO: GET 200 /assets/fonts/glyphicons-halflings-regular.woff
+- 07:20:43.547 DEBUG: OnLoadingStateChange: loading = 0
+- 07:20:55.594 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:55.750 INFO: GET 200 /index.php/history
+- 07:20:55.437 DEBUG: OnContextCreated()
+- 07:20:55.844 DEBUG: OnLoadingStateChange: loading = 0
+- 07:20:56.344 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:56.532 INFO: GET 200 /index.php/addPatient
+- 07:20:56.219 DEBUG: OnContextCreated()
+- 07:20:56.563 DEBUG: OnLoadingStateChange: loading = 0
+- 07:20:58.704 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:58.547 DEBUG: OnContextCreated()
+- 07:20:58.860 INFO: GET 200 /index.php/diagnosis
+- 07:20:58.907 DEBUG: OnLoadingStateChange: loading = 0
+- 07:20:59.079 DEBUG: OnLoadingStateChange: loading = 1
+- 07:20:59.282 INFO: GET 200 /index.php/treatment
+- 07:20:59.984 DEBUG: OnContextCreated()
+- 07:20:59.313 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:00.563 DEBUG: OnLoadingStateChange: loading = 1
+- 07:21:01.344 DEBUG: OnContextCreated()
+- 07:21:01.657 INFO: GET 200 /index.php/diagnosis
+- 07:21:01.672 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:03.641 DEBUG: OnLoadingStateChange: loading = 1
+- 07:21:03.735 INFO: GET 200 /index.php/report
+- 07:21:03.437 DEBUG: OnContextCreated()
+- 07:21:03.750 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:06.829 DEBUG: OnLoadingStateChange: loading = 1
+- 07:21:06.578 DEBUG: OnContextCreated()
+- 07:21:06.938 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:07.422 DEBUG: OnLoadingStateChange: loading = 1
+- 07:21:08.579 INFO: GET 200 /index.php/search
+- 07:21:08.266 DEBUG: OnContextCreated()
+- 07:21:08.625 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:11.766 DEBUG: OnLoadingStateChange: loading = 1
+- 07:21:11.844 INFO: GET 200 /index.php/addPatient
+- 07:21:11.531 DEBUG: OnContextCreated()
+- 07:21:11.875 DEBUG: OnLoadingStateChange: loading = 0
+- 07:21:16.485 DEBUG: WM_DESTROY
+- 07:21:16.485 DEBUG: RemoveBrowserWindow(): hwnd = 1639086
+- 07:21:16.485 INFO: Stopping Mongoose web server
+- 07:21:16.485 DEBUG: Mongoose webserver stopped immediately
+- 07:21:16.485 DEBUG: RemoveBrowserWindow(): hwnd = 1442814
+- 07:21:16.485 DEBUG: GetBrowserWindow(): not found, hwnd = 1442814
+- 07:21:16.485 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:21:16.187 DEBUG: OnBrowserDestroyed()
+- 07:21:16.500 INFO: Ended application
+- 07:21:16.500 INFO: --------------------------------------------------------
+- 07:22:48.031 INFO: --------------------------------------------------------
+- 07:22:48.047 INFO: Started application
+- 07:22:48.047 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 07:22:48.047 INFO: Log level = DEBUG4
+- 07:22:48.047 INFO: Starting Mongoose 3.9b web server
+- 07:22:48.047 INFO: WWW directory: C:\MatrikaDCMS\www
+- 07:22:48.047 INFO: Index files: index.html,index.php
+- 07:22:48.047 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 07:22:48.047 INFO: CGI pattern: **.php$
+- 07:22:48.047 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 07:22:48.047 INFO: Web server url: http://127.0.0.1:49933/
+- 07:22:48.047 INFO: remote_debugging_port = 52586
+- 07:22:48.047 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=52586 --no-sandbox
+- 07:22:48.062 DEBUG: App::OnContextInitialized()
+- 07:22:48.062 DEBUG: Window max width/height = 1286/680
+- 07:22:48.062 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 07:22:48.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1247042
+- 07:22:48.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:22:48.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:22:48.078 DEBUG: StoreBrowserWindow(): hwnd = 1247042
+- 07:22:48.078 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 07:22:48.078 DEBUG: ClientHandler::OnAfterCreated()
+- 07:22:48.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:22:48.093 INFO: DPI, ppix = 96, ppiy = 96
+- 07:22:48.093 INFO: DPI, browser zoom level = 0
+- 07:22:48.093 DEBUG: OnLoadingStateChange: loading = 1
+- 07:22:48.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="5276.0.1032270347\852207119" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2768 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 07:22:48.016 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --channel="5276.1.1060203997\244754947" /prefetch:673131151
+- 07:22:48.016 DEBUG: OnBrowserCreated()
+- 07:22:49.265 INFO: GET 302 /
+- 07:22:49.343 INFO: GET 200 /index.php/login
+- 07:22:49.234 DEBUG: OnContextCreated()
+- 07:22:49.422 DEBUG: OnLoadingStateChange: loading = 0
+- 07:22:56.515 DEBUG: OnLoadingStateChange: loading = 1
+- 07:22:56.593 INFO: POST 302 /index.php/login/process
+- 07:22:56.672 INFO: GET 200 /index.php/home
+- 07:22:56.563 DEBUG: OnContextCreated()
+- 07:22:56.781 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:07.078 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:07.047 DEBUG: OnContextCreated()
+- 07:23:07.156 INFO: GET 200 /index.php/addPatient
+- 07:23:07.187 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:09.609 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:09.687 INFO: GET 200 /index.php/history
+- 07:23:09.578 DEBUG: OnContextCreated()
+- 07:23:09.718 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:14.765 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:14.843 INFO: GET 200 /index.php/diagnosis
+- 07:23:14.734 DEBUG: OnContextCreated()
+- 07:23:14.875 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:21.515 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:21.625 INFO: GET 200 /index.php/diagnosis
+- 07:23:21.516 DEBUG: OnContextCreated()
+- 07:23:21.656 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:22.203 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:22.281 INFO: GET 200 /index.php/treatment
+- 07:23:22.172 DEBUG: OnContextCreated()
+- 07:23:22.312 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:28.343 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:29.422 INFO: GET 200 /index.php/search
+- 07:23:29.313 DEBUG: OnContextCreated()
+- 07:23:29.437 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:30.968 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:30.062 INFO: GET 200 /index.php/addPatient
+- 07:23:30.953 DEBUG: OnContextCreated()
+- 07:23:30.078 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:31.703 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:31.797 INFO: GET 200 /index.php/history
+- 07:23:31.688 DEBUG: OnContextCreated()
+- 07:23:31.828 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:32.140 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:32.328 INFO: GET 200 /index.php/addDisease
+- 07:23:32.219 DEBUG: OnContextCreated()
+- 07:23:32.343 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:37.718 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:37.812 INFO: GET 200 /index.php/treatment
+- 07:23:37.703 DEBUG: OnContextCreated()
+- 07:23:37.828 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:37.359 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:38.453 INFO: GET 200 /index.php/diagnosis
+- 07:23:38.344 DEBUG: OnContextCreated()
+- 07:23:38.484 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:39.812 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:39.953 INFO: GET 200 /index.php/diagnosis/addItem
+- 07:23:39.844 DEBUG: OnContextCreated()
+- 07:23:39.015 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:44.047 DEBUG: OnLoadingStateChange: loading = 1
+- 07:23:44.140 INFO: GET 200 /index.php/addPatient
+- 07:23:44.031 DEBUG: OnContextCreated()
+- 07:23:44.156 DEBUG: OnLoadingStateChange: loading = 0
+- 07:23:47.609 DEBUG: WM_DESTROY
+- 07:23:47.609 DEBUG: RemoveBrowserWindow(): hwnd = 1247042
+- 07:23:47.609 INFO: Stopping Mongoose web server
+- 07:23:47.609 DEBUG: Mongoose webserver stopped immediately
+- 07:23:47.609 DEBUG: RemoveBrowserWindow(): hwnd = 917820
+- 07:23:47.609 DEBUG: GetBrowserWindow(): not found, hwnd = 917820
+- 07:23:47.609 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:23:47.609 INFO: Ended application
+- 07:23:47.609 INFO: --------------------------------------------------------
+- 07:25:21.000 INFO: --------------------------------------------------------
+- 07:25:21.000 INFO: Started application
+- 07:25:21.000 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 07:25:21.000 INFO: Log level = DEBUG4
+- 07:25:21.000 INFO: Starting Mongoose 3.9b web server
+- 07:25:21.000 INFO: WWW directory: C:\MatrikaDCMS\www
+- 07:25:21.000 INFO: Index files: index.html,index.php
+- 07:25:21.000 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 07:25:21.000 INFO: CGI pattern: **.php$
+- 07:25:21.000 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 07:25:21.016 INFO: Web server url: http://127.0.0.1:49933/
+- 07:25:21.016 INFO: remote_debugging_port = 55987
+- 07:25:21.016 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=55987 --no-sandbox
+- 07:25:21.032 DEBUG: App::OnContextInitialized()
+- 07:25:21.032 DEBUG: Window max width/height = 1286/680
+- 07:25:21.032 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 07:25:21.032 DEBUG: GetBrowserWindow(): not found, hwnd = 2753228
+- 07:25:21.032 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:25:21.032 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:25:21.032 DEBUG: StoreBrowserWindow(): hwnd = 2753228
+- 07:25:21.032 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 07:25:21.047 DEBUG: ClientHandler::OnAfterCreated()
+- 07:25:21.047 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:25:21.047 INFO: DPI, ppix = 96, ppiy = 96
+- 07:25:21.047 INFO: DPI, browser zoom level = 0
+- 07:25:21.063 DEBUG: OnLoadingStateChange: loading = 1
+- 07:25:21.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="5704.0.898170122\951665467" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2768 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 07:25:21.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --channel="5704.1.1260248491\2023745093" /prefetch:673131151
+- 07:25:21.015 DEBUG: OnBrowserCreated()
+- 07:25:22.329 INFO: GET 302 /
+- 07:25:22.422 INFO: GET 200 /index.php/login
+- 07:25:22.343 DEBUG: OnContextCreated()
+- 07:25:22.500 DEBUG: OnLoadingStateChange: loading = 0
+- 07:25:29.625 DEBUG: OnLoadingStateChange: loading = 1
+- 07:25:29.719 INFO: POST 302 /index.php/login/process
+- 07:25:29.813 INFO: GET 200 /index.php/home
+- 07:25:29.734 DEBUG: OnContextCreated()
+- 07:25:29.907 DEBUG: OnLoadingStateChange: loading = 0
+- 07:25:32.094 DEBUG: OnLoadingStateChange: loading = 1
+- 07:25:32.188 INFO: GET 200 /index.php/addPatient
+- 07:25:32.109 DEBUG: OnContextCreated()
+- 07:25:32.219 DEBUG: OnLoadingStateChange: loading = 0
+- 07:25:34.172 DEBUG: OnLoadingStateChange: loading = 1
+- 07:25:34.282 INFO: GET 200 /index.php/history
+- 07:25:34.203 DEBUG: OnContextCreated()
+- 07:25:34.297 DEBUG: OnLoadingStateChange: loading = 0
+- 07:25:37.016 DEBUG: OnLoadingStateChange: loading = 1
+- 07:25:37.110 INFO: GET 200 /index.php/addPatient
+- 07:25:37.031 DEBUG: OnContextCreated()
+- 07:25:37.141 DEBUG: OnLoadingStateChange: loading = 0
+- 07:26:22.329 DEBUG: OnLoadingStateChange: loading = 1
+- 07:26:23.672 INFO: POST 302 /index.php/addPatient
+- 07:26:23.844 INFO: GET 200 /index.php/history
+- 07:26:23.765 DEBUG: OnContextCreated()
+- 07:26:23.860 DEBUG: OnLoadingStateChange: loading = 0
+- 07:26:41.516 DEBUG: OnLoadingStateChange: loading = 1
+- 07:26:42.766 INFO: POST 302 /index.php/history
+- 07:26:42.985 INFO: GET 200 /index.php/view/patient/1
+- 07:26:42.906 DEBUG: OnContextCreated()
+- 07:26:42.016 DEBUG: OnLoadingStateChange: loading = 0
+- 07:26:51.047 DEBUG: OnLoadingStateChange: loading = 1
+- 07:26:51.157 INFO: GET 200 /index.php/diagnosis/patient/1
+- 07:26:51.078 DEBUG: OnContextCreated()
+- 07:26:51.188 DEBUG: OnLoadingStateChange: loading = 0
+- 07:27:19.704 DEBUG: OnLoadingStateChange: loading = 1
+- 07:27:21.688 INFO: POST 302 /index.php/diagnosis/add
+- 07:27:21.860 INFO: GET 200 /index.php/treatment/patient/1
+- 07:27:21.781 DEBUG: OnContextCreated()
+- 07:27:21.875 DEBUG: OnLoadingStateChange: loading = 0
+- 07:27:40.375 DEBUG: OnLoadingStateChange: loading = 1
+- 07:27:40.563 INFO: POST 200 /index.php/view/patient
+- 07:27:40.484 DEBUG: OnContextCreated()
+- 07:27:41.579 DEBUG: OnLoadingStateChange: loading = 0
+- 07:27:43.016 DEBUG: OnLoadingStateChange: loading = 1
+- 07:27:44.766 INFO: GET 200 /index.php/report/create/1/2014-06-02
+- 07:27:44.844 DEBUG: OnLoadError
+- 07:27:44.860 DEBUG: OnLoadingStateChange: loading = 0
+- 07:27:44.891 INFO: About to download a file: output.pdf
+- 07:28:01.907 INFO: Download completed, saved to: C:\Users\TANIM\Desktop\output.pdf
+- 07:29:15.344 DEBUG: OnLoadingStateChange: loading = 1
+- 07:29:15.516 INFO: GET 302 /index.php/account/logout
+- 07:29:16.641 INFO: GET 200 /index.php/login
+- 07:29:16.562 DEBUG: OnContextCreated()
+- 07:29:16.672 DEBUG: OnLoadingStateChange: loading = 0
+- 07:29:30.704 DEBUG: WM_DESTROY
+- 07:29:30.704 DEBUG: RemoveBrowserWindow(): hwnd = 2753228
+- 07:29:30.704 INFO: Stopping Mongoose web server
+- 07:29:30.704 DEBUG: Mongoose webserver stopped immediately
+- 07:29:30.704 DEBUG: RemoveBrowserWindow(): hwnd = 1967918
+- 07:29:30.704 DEBUG: GetBrowserWindow(): not found, hwnd = 1967918
+- 07:29:30.704 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:29:30.704 INFO: Ended application
+- 07:29:30.704 INFO: --------------------------------------------------------
+- 07:29:30.640 DEBUG: OnBrowserDestroyed()
+- 23:42:07.000 INFO: --------------------------------------------------------
+- 23:42:07.000 INFO: Started application
+- 23:42:07.000 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 23:42:07.000 INFO: Log level = DEBUG4
+- 23:42:07.000 INFO: Starting Mongoose 3.9b web server
+- 23:42:07.000 INFO: WWW directory: C:\MatrikaDCMS\www
+- 23:42:07.000 INFO: Index files: index.html,index.php
+- 23:42:07.000 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 23:42:07.000 INFO: CGI pattern: **.php$
+- 23:42:07.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\PRINCE~1\AppData\Local\Temp\
+- 23:42:07.031 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 23:42:07.047 INFO: Web server url: http://127.0.0.1:49933/
+- 23:42:07.047 INFO: remote_debugging_port = 55304
+- 23:42:07.047 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=55304 --no-sandbox
+[0602/234207:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:07.156 DEBUG: App::OnContextInitialized()
+- 23:42:07.156 DEBUG: Window max width/height = 1520/812
+- 23:42:07.156 DEBUG: GetBrowserWindow(): not found, hwnd = 918012
+- 23:42:07.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:42:07.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:42:07.156 DEBUG: StoreBrowserWindow(): hwnd = 918012
+- 23:42:07.187 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 23:42:07.187 DEBUG: ClientHandler::OnAfterCreated()
+- 23:42:07.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:42:07.187 INFO: DPI, ppix = 96, ppiy = 96
+- 23:42:07.187 INFO: DPI, browser zoom level = 0
+- 23:42:07.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="4060.0.550637702\179913256" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2702 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 23:42:07.281 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:07.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --disable-accelerated-2d-canvas --disable-accelerated-video-decode --channel="4060.1.1280441029\317717293" /prefetch:673131151
+- 23:42:07.047 DEBUG: OnBrowserCreated()
+- 23:42:08.889 INFO: GET 302 /
+- 23:42:08.983 INFO: GET 200 /index.php/login
+- 23:42:08.717 DEBUG: OnContextCreated()
+- 23:42:08.123 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234212:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:14.114 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:14.285 INFO: POST 302 /index.php/login/process
+- 23:42:15.472 INFO: GET 200 /index.php/home
+- 23:42:15.191 DEBUG: OnContextCreated()
+- 23:42:15.769 DEBUG: OnLoadingStateChange: loading = 0
+- 23:42:17.532 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:17.719 INFO: GET 200 /index.php/view/patient/1
+- 23:42:17.438 DEBUG: OnContextCreated()
+- 23:42:17.766 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234217:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0602/234222:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:26.453 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:27.656 INFO: GET 200 /index.php/treatment
+- 23:42:27.375 DEBUG: OnContextCreated()
+- 23:42:27.718 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234227:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:30.838 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:30.026 INFO: GET 200 /index.php/treatment/addItem
+- 23:42:30.745 DEBUG: OnContextCreated()
+- 23:42:30.072 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234232:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0602/234237:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:40.713 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:40.025 INFO: POST 200 /index.php/treatment/addItem
+- 23:42:40.744 DEBUG: OnContextCreated()
+- 23:42:40.057 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234242:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0602/234247:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:52.115 DEBUG: OnLoadingStateChange: loading = 1
+[0602/234252:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:52.427 INFO: POST 200 /index.php/treatment/addItem
+- 23:42:52.146 DEBUG: OnContextCreated()
+- 23:42:52.459 DEBUG: OnLoadingStateChange: loading = 0
+- 23:42:56.969 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:56.140 INFO: GET 200 /index.php
+- 23:42:56.859 DEBUG: OnContextCreated()
+- 23:42:56.187 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234257:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:42:58.262 DEBUG: OnLoadingStateChange: loading = 1
+- 23:42:58.449 INFO: GET 200 /index.php/view/patient/1
+- 23:42:58.168 DEBUG: OnContextCreated()
+- 23:42:59.465 DEBUG: OnLoadingStateChange: loading = 0
+- 23:43:00.884 DEBUG: OnLoadingStateChange: loading = 1
+- 23:43:00.071 INFO: GET 200 /index.php/treatment/patient/1
+- 23:43:00.790 DEBUG: OnContextCreated()
+- 23:43:00.103 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234302:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0602/234307:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0602/234312:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:43:13.425 DEBUG: OnLoadingStateChange: loading = 1
+- 23:43:14.768 INFO: POST 200 /index.php/treatment/add
+- 23:43:14.487 DEBUG: OnContextCreated()
+- 23:43:14.800 DEBUG: OnLoadingStateChange: loading = 0
+- 23:43:17.670 DEBUG: OnLoadingStateChange: loading = 1
+- 23:43:17.842 INFO: GET 200 /index.php
+- 23:43:17.561 DEBUG: OnContextCreated()
+- 23:43:17.873 DEBUG: OnLoadingStateChange: loading = 0
+[0602/234317:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:43:18.012 DEBUG: OnLoadingStateChange: loading = 1
+- 23:43:18.183 INFO: GET 200 /index.php/view/patient/1
+- 23:43:18.918 DEBUG: OnContextCreated()
+- 23:43:18.230 DEBUG: OnLoadingStateChange: loading = 0
+- 23:43:21.397 DEBUG: WM_DESTROY
+- 23:43:21.397 DEBUG: RemoveBrowserWindow(): hwnd = 918012
+- 23:43:21.397 INFO: Stopping Mongoose web server
+- 23:43:21.397 DEBUG: Mongoose webserver stopped immediately
+- 23:43:21.397 DEBUG: RemoveBrowserWindow(): hwnd = 197450
+- 23:43:21.397 DEBUG: GetBrowserWindow(): not found, hwnd = 197450
+- 23:43:21.397 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:43:21.428 INFO: Ended application
+- 23:43:21.428 INFO: --------------------------------------------------------
+- 23:38:32.016 INFO: --------------------------------------------------------
+- 23:38:32.047 INFO: Started application
+- 23:38:32.047 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 23:38:32.047 INFO: Log level = DEBUG4
+- 23:38:32.047 INFO: Starting Mongoose 3.9b web server
+- 23:38:32.047 INFO: WWW directory: C:\MatrikaDCMS\www
+- 23:38:32.047 INFO: Index files: index.html,index.php
+- 23:38:32.047 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 23:38:32.047 INFO: CGI pattern: **.php$
+- 23:38:32.047 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\PRINCE~1\AppData\Local\Temp\
+- 23:38:32.063 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 23:38:32.078 INFO: Web server url: http://127.0.0.1:49933/
+- 23:38:32.078 INFO: remote_debugging_port = 62533
+- 23:38:32.094 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=62533 --no-sandbox
+[0603/233832:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:38:33.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="932.0.332999424\1267722267" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2702 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 23:38:33.999 DEBUG: App::OnContextInitialized()
+- 23:38:33.999 DEBUG: Window max width/height = 1520/812
+- 23:38:33.999 DEBUG: GetBrowserWindow(): not found, hwnd = 590560
+- 23:38:33.999 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:38:33.999 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:38:33.046 DEBUG: StoreBrowserWindow(): hwnd = 590560
+- 23:38:33.061 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 23:38:33.498 DEBUG: ClientHandler::OnAfterCreated()
+- 23:38:33.498 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:38:33.529 INFO: DPI, ppix = 96, ppiy = 96
+- 23:38:33.529 INFO: DPI, browser zoom level = 0
+- 23:38:34.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --disable-accelerated-2d-canvas --disable-accelerated-video-decode --channel="932.1.1740226152\1706354187" /prefetch:673131151
+- 23:38:34.888 DEBUG: OnLoadingStateChange: loading = 1
+- 23:38:36.028 DEBUG: OnBrowserCreated()
+[0603/233837:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:38:39.395 INFO: GET 302 /
+- 23:38:39.613 INFO: GET 200 /index.php/login
+- 23:38:40.193 DEBUG: OnContextCreated()
+- 23:38:41.846 DEBUG: OnLoadingStateChange: loading = 0
+[0603/233842:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233847:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:38:47.460 DEBUG: OnLoadingStateChange: loading = 1
+- 23:38:47.694 INFO: POST 302 /index.php/login/process
+- 23:38:48.866 INFO: GET 200 /index.php/home
+- 23:38:48.040 DEBUG: OnContextCreated()
+- 23:38:48.162 DEBUG: OnLoadingStateChange: loading = 0
+- 23:38:51.064 DEBUG: OnLoadingStateChange: loading = 1
+- 23:38:51.251 INFO: GET 200 /index.php
+- 23:38:51.410 DEBUG: OnContextCreated()
+- 23:38:51.282 DEBUG: OnLoadingStateChange: loading = 0
+[0603/233852:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:38:55.354 DEBUG: OnLoadingStateChange: loading = 1
+- 23:38:55.541 INFO: POST 200 /index.php/view/patient
+- 23:38:55.700 DEBUG: OnContextCreated()
+- 23:38:55.588 DEBUG: OnLoadingStateChange: loading = 0
+[0603/233857:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233902:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:39:04.761 DEBUG: OnLoadingStateChange: loading = 1
+- 23:39:05.932 INFO: GET 200 /index.php
+- 23:39:05.091 DEBUG: OnContextCreated()
+- 23:39:05.979 DEBUG: OnLoadingStateChange: loading = 0
+- 23:39:07.804 DEBUG: OnLoadingStateChange: loading = 1
+- 23:39:07.991 INFO: GET 200 /index.php/addPatient
+- 23:39:07.150 DEBUG: OnContextCreated()
+- 23:39:07.038 DEBUG: OnLoadingStateChange: loading = 0
+[0603/233907:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233912:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233917:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233922:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233927:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233932:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233937:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:39:37.802 DEBUG: OnLoadingStateChange: loading = 1
+- 23:39:38.145 INFO: POST 302 /index.php/addPatient
+- 23:39:38.332 INFO: GET 200 /index.php/complain
+- 23:39:38.491 DEBUG: OnContextCreated()
+- 23:39:38.363 DEBUG: OnLoadingStateChange: loading = 0
+[0603/233942:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233947:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233952:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/233957:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/234002:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0603/234007:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:40:10.733 DEBUG: OnLoadingStateChange: loading = 1
+- 23:40:11.201 INFO: POST 302 /index.php/complain
+- 23:40:11.373 INFO: GET 200 /index.php/history
+- 23:40:11.532 DEBUG: OnContextCreated()
+- 23:40:11.420 DEBUG: OnLoadingStateChange: loading = 0
+[0603/234012:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:40:14.649 DEBUG: OnLoadingStateChange: loading = 1
+- 23:40:15.899 INFO: POST 302 /index.php/history
+- 23:40:15.070 INFO: GET 200 /index.php/view/patient/3
+- 23:40:15.245 DEBUG: OnContextCreated()
+- 23:40:15.117 DEBUG: OnLoadingStateChange: loading = 0
+[0603/234017:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 23:40:21.342 DEBUG: WM_DESTROY
+- 23:40:21.342 DEBUG: RemoveBrowserWindow(): hwnd = 590560
+- 23:40:21.342 INFO: Stopping Mongoose web server
+- 23:40:21.342 DEBUG: Mongoose webserver stopped immediately
+- 23:40:21.342 DEBUG: RemoveBrowserWindow(): hwnd = 131862
+- 23:40:21.342 DEBUG: GetBrowserWindow(): not found, hwnd = 131862
+- 23:40:21.342 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:40:21.594 DEBUG: OnBrowserDestroyed()
+- 23:40:21.451 INFO: Ended application
+- 23:40:21.451 INFO: --------------------------------------------------------
+- 00:20:13.016 INFO: --------------------------------------------------------
+- 00:20:13.016 INFO: Started application
+- 00:20:13.016 INFO: Logging to: C:\MatrikaDCMS\debug.log
+- 00:20:13.016 INFO: Log level = DEBUG4
+- 00:20:13.016 INFO: Starting Mongoose 3.9b web server
+- 00:20:13.016 INFO: WWW directory: C:\MatrikaDCMS\www
+- 00:20:13.016 INFO: Index files: index.html,index.php
+- 00:20:13.016 INFO: CGI interpreter: C:\MatrikaDCMS\php\php-cgi.exe
+- 00:20:13.016 INFO: CGI pattern: **.php$
+- 00:20:13.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\PRINCE~1\AppData\Local\Temp\
+- 00:20:13.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:20:13.016 INFO: Web server url: http://127.0.0.1:49933/
+- 00:20:13.016 INFO: remote_debugging_port = 50224
+- 00:20:13.031 DEBUG: Command line string for the browser process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --remote-debugging-port=50224 --no-sandbox
+[0604/002013:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:13.156 DEBUG: App::OnContextInitialized()
+- 00:20:13.156 DEBUG: Window max width/height = 1520/812
+- 00:20:13.156 DEBUG: GetBrowserWindow(): not found, hwnd = 722070
+- 00:20:13.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:20:13.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:20:13.156 DEBUG: StoreBrowserWindow(): hwnd = 722070
+- 00:20:13.172 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:20:13.187 DEBUG: ClientHandler::OnAfterCreated()
+- 00:20:13.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:20:13.187 INFO: DPI, ppix = 96, ppiy = 96
+- 00:20:13.187 INFO: DPI, browser zoom level = 0
+- 00:20:13.000 DEBUG: Command line string for the gpu-process process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=gpu-process --channel="4280.0.1267479856\496333528" --no-sandbox --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2702 --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" /prefetch:822062411
+- 00:20:13.234 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:13.000 DEBUG: Command line string for the renderer process: "C:\MatrikaDCMS\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\MatrikaDCMS\debug.log" --disable-accelerated-2d-canvas --disable-accelerated-video-decode --channel="4280.1.2099432567\2028996015" /prefetch:673131151
+- 00:20:13.172 DEBUG: OnBrowserCreated()
+- 00:20:14.186 INFO: GET 302 /
+- 00:20:14.373 INFO: GET 200 /index.php/login
+- 00:20:14.170 DEBUG: OnContextCreated()
+- 00:20:14.591 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002018:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002023:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:24.544 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:24.747 INFO: POST 302 /index.php/login/process
+- 00:20:25.934 INFO: GET 200 /index.php/home
+- 00:20:25.700 DEBUG: OnContextCreated()
+- 00:20:25.168 DEBUG: OnLoadingStateChange: loading = 0
+- 00:20:26.853 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:27.025 INFO: GET 200 /index.php/view/patient/3
+- 00:20:27.791 DEBUG: OnContextCreated()
+- 00:20:27.056 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002028:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:30.942 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:30.129 INFO: GET 200 /index.php/complain
+- 00:20:30.895 DEBUG: OnContextCreated()
+- 00:20:30.160 DEBUG: OnLoadingStateChange: loading = 0
+- 00:20:32.001 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:32.188 INFO: GET 200 /index.php
+- 00:20:32.954 DEBUG: OnContextCreated()
+- 00:20:32.235 DEBUG: OnLoadingStateChange: loading = 0
+- 00:20:33.953 DEBUG: OnLoadingStateChange: loading = 1
+[0604/002033:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:33.140 INFO: GET 200 /index.php/view/patient/3
+- 00:20:33.906 DEBUG: OnContextCreated()
+- 00:20:33.187 DEBUG: OnLoadingStateChange: loading = 0
+- 00:20:34.560 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:35.246 INFO: GET 200 /index.php/report/create/3/2014-06-03
+- 00:20:35.246 DEBUG: OnLoadError
+- 00:20:35.262 DEBUG: OnLoadingStateChange: loading = 0
+- 00:20:35.262 INFO: About to download a file: 3.pdf
+[0604/002038:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002043:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:43.764 INFO: Download completed, saved to: C:\Users\Princess Oishee\Desktop\3.pdf
+[0604/002048:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002053:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:57.632 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:57.804 INFO: GET 200 /index.php
+- 00:20:57.570 DEBUG: OnContextCreated()
+- 00:20:57.882 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002058:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:20:59.364 DEBUG: OnLoadingStateChange: loading = 1
+- 00:20:59.551 INFO: GET 200 /index.php/addPatient
+- 00:20:59.317 DEBUG: OnContextCreated()
+- 00:20:59.582 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002103:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002108:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002113:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002118:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002123:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002128:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002133:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002138:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002143:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002148:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002153:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002158:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002203:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:05.617 DEBUG: OnLoadingStateChange: loading = 1
+- 00:22:06.914 INFO: POST 302 /index.php/addPatient
+- 00:22:06.085 INFO: GET 200 /index.php/complain
+- 00:22:06.851 DEBUG: OnContextCreated()
+- 00:22:06.148 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002208:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002213:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:15.102 DEBUG: OnLoadingStateChange: loading = 1
+- 00:22:15.367 INFO: POST 302 /index.php/complain
+- 00:22:15.555 INFO: GET 200 /index.php/history
+- 00:22:15.321 DEBUG: OnContextCreated()
+- 00:22:15.586 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002218:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:20.578 DEBUG: OnLoadingStateChange: loading = 1
+- 00:22:20.812 INFO: POST 302 /index.php/history
+- 00:22:21.999 INFO: GET 200 /index.php/view/patient/4
+- 00:22:21.765 DEBUG: OnContextCreated()
+- 00:22:21.046 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002223:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:24.135 DEBUG: OnLoadingStateChange: loading = 1
+- 00:22:24.322 INFO: GET 200 /index.php/diagnosis/patient/4
+- 00:22:24.088 DEBUG: OnContextCreated()
+- 00:22:24.369 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002228:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002233:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002238:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002243:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:48.987 DEBUG: OnLoadingStateChange: loading = 1
+[0604/002248:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:22:49.656 INFO: POST 302 /index.php/diagnosis/add
+- 00:22:49.844 INFO: GET 200 /index.php/treatment/patient/4
+- 00:22:49.610 DEBUG: OnContextCreated()
+- 00:22:49.875 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002253:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002258:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:23:00.655 DEBUG: OnLoadingStateChange: loading = 1
+- 00:23:01.982 INFO: POST 302 /index.php/treatment/add
+- 00:23:01.169 INFO: GET 200 /index.php/view/patient/4
+- 00:23:01.935 DEBUG: OnContextCreated()
+- 00:23:01.201 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002303:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002308:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002313:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002318:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002323:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002328:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002333:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002338:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002343:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002348:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002353:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002358:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002403:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002408:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002413:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:24:14.209 DEBUG: OnLoadingStateChange: loading = 1
+- 00:24:14.490 DEBUG: OnLoadError
+- 00:24:14.490 INFO: About to download a file: 4.pdf
+- 00:24:14.490 DEBUG: OnLoadingStateChange: loading = 0
+- 00:24:14.505 INFO: GET 200 /index.php/report/create/4/2014-06-03
+[0604/002418:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:24:18.561 INFO: Download completed, saved to: C:\Users\Princess Oishee\Desktop\4.pdf
+[0604/002423:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002428:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002433:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002438:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002443:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002448:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002453:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002458:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002503:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002508:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002513:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002518:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002523:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002528:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0604/002533:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:37.264 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:37.436 INFO: GET 200 /index.php
+- 00:25:37.217 DEBUG: OnContextCreated()
+- 00:25:37.514 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002538:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:39.105 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:39.276 INFO: GET 200 /index.php/addPatient
+- 00:25:39.042 DEBUG: OnContextCreated()
+- 00:25:39.323 DEBUG: OnLoadingStateChange: loading = 0
+- 00:25:42.412 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:42.584 INFO: GET 200 /index.php/complain
+- 00:25:42.350 DEBUG: OnContextCreated()
+- 00:25:42.615 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002543:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:46.718 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:47.920 INFO: GET 200 /index.php/history
+- 00:25:47.686 DEBUG: OnContextCreated()
+- 00:25:47.967 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002548:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:49.884 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:50.072 INFO: GET 200 /index.php/diagnosis
+- 00:25:50.838 DEBUG: OnContextCreated()
+- 00:25:50.118 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002553:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:53.831 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:54.018 INFO: GET 200 /index.php/treatment
+- 00:25:54.784 DEBUG: OnContextCreated()
+- 00:25:54.065 DEBUG: OnLoadingStateChange: loading = 0
+[0604/002558:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:25:58.698 DEBUG: OnLoadingStateChange: loading = 1
+- 00:25:58.870 INFO: GET 200 /index.php
+- 00:25:58.636 DEBUG: OnContextCreated()
+- 00:25:59.917 DEBUG: OnLoadingStateChange: loading = 0
+- 00:26:01.413 DEBUG: WM_DESTROY
+- 00:26:01.413 DEBUG: RemoveBrowserWindow(): hwnd = 722070
+- 00:26:01.413 INFO: Stopping Mongoose web server
+- 00:26:01.413 DEBUG: Mongoose webserver stopped immediately
+- 00:26:01.413 DEBUG: RemoveBrowserWindow(): hwnd = 132014
+- 00:26:01.413 DEBUG: GetBrowserWindow(): not found, hwnd = 132014
+- 00:26:01.413 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:26:01.444 INFO: Ended application
+- 00:26:01.444 INFO: --------------------------------------------------------
+- 00:27:46.000 INFO: --------------------------------------------------------
+- 00:27:46.015 INFO: Started application
+- 00:27:46.015 INFO: Logging to: D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\debug.log
+- 00:27:46.015 INFO: Log level = DEBUG4
+- 00:27:46.015 INFO: Starting Mongoose 3.9b web server
+- 00:27:46.015 INFO: WWW directory: D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\www
+- 00:27:46.015 INFO: Index files: index.html,index.php
+- 00:27:46.015 INFO: CGI interpreter: D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\php\php-cgi.exe
+- 00:27:46.015 INFO: CGI pattern: **.php$
+- 00:27:46.015 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:27:46.031 INFO: Web server url: http://127.0.0.1:50035/
+- 00:27:46.031 INFO: remote_debugging_port = 60535
+- 00:27:46.046 DEBUG: Command line string for the browser process: "D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\debug.log" --remote-debugging-port=60535 --no-sandbox
+[0615/002746:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:27:46.499 DEBUG: App::OnContextInitialized()
+- 00:27:46.499 DEBUG: Window max width/height = 944/512
+- 00:27:46.499 DEBUG: Window max size exceeded, new width/height = 944/512
+- 00:27:46.499 DEBUG: GetBrowserWindow(): not found, hwnd = 2819056
+- 00:27:46.499 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:27:46.499 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:27:46.499 DEBUG: StoreBrowserWindow(): hwnd = 2819056
+- 00:27:46.499 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:27:46.530 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:27:46.546 DEBUG: ClientHandler::OnAfterCreated()
+- 00:27:46.546 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:27:46.561 INFO: DPI, ppix = 96, ppiy = 96
+- 00:27:46.561 INFO: DPI, browser zoom level = 0
+- 00:27:46.592 DEBUG: OnLoadingStateChange: loading = 1
+- 00:27:46.000 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="2760.0.819087325\1695343959" --no-sandbox --lang=en-US --log-file="D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2697 --lang=en-US --log-file="D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 00:27:46.016 DEBUG: Command line string for the renderer process: "D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\MatrikaDCMS_5\PilotLogbook_v1\debug.log" --disable-accelerated-video-decode --channel="2760.1.1303971679\1948482596" /prefetch:673131151
+- 00:27:46.156 DEBUG: OnBrowserCreated()
+[0615/002751:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:27:55.126 INFO: GET 302 /
+- 00:27:55.453 INFO: GET 200 /index.php/login
+- 00:27:55.767 DEBUG: OnContextCreated()
+- 00:27:55.500 INFO: GET 200 /assets/css/bootstrap-theme.min.css
+- 00:27:55.500 INFO: GET 200 /assets/css/bootstrap.css
+- 00:27:55.531 INFO: GET 200 /assets/js/jquery-2.1.0.min.js
+- 00:27:55.531 INFO: GET 200 /assets/js/bootstrap.js
+- 00:27:55.890 DEBUG: OnLoadingStateChange: loading = 0
+[0615/002756:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002801:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002806:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:28:06.779 DEBUG: OnLoadingStateChange: loading = 1
+- 00:28:07.436 DEBUG: OnContextCreated()
+login/process
+- 00:28:07.216 DEBUG: OnLoadingStateChange: loading = 0
+[0615/002811:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002816:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002821:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002826:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:28:30.992 DEBUG: WM_DESTROY
+- 00:28:30.992 DEBUG: RemoveBrowserWindow(): hwnd = 2819056
+- 00:28:30.992 INFO: Stopping Mongoose web server
+- 00:28:30.992 DEBUG: Mongoose webserver stopped immediately
+- 00:28:30.992 DEBUG: RemoveBrowserWindow(): hwnd = 3802330
+- 00:28:30.992 DEBUG: GetBrowserWindow(): not found, hwnd = 3802330
+- 00:28:30.992 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:28:30.039 INFO: Ended application
+- 00:28:30.039 INFO: --------------------------------------------------------
+- 00:28:30.337 DEBUG: OnBrowserDestroyed()
+- 00:28:47.000 INFO: --------------------------------------------------------
+- 00:28:47.000 INFO: Started application
+- 00:28:47.000 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 00:28:47.000 INFO: Log level = DEBUG4
+- 00:28:47.000 INFO: Starting Mongoose 3.9b web server
+- 00:28:47.000 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 00:28:47.000 INFO: Index files: index.html,index.php
+- 00:28:47.000 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 00:28:47.000 INFO: CGI pattern: **.php$
+- 00:28:47.000 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:28:47.015 INFO: Web server url: http://127.0.0.1:50035/
+- 00:28:47.015 INFO: remote_debugging_port = 51177
+- 00:28:47.015 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=51177 --no-sandbox
+[0615/002847:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:28:47.296 DEBUG: App::OnContextInitialized()
+- 00:28:47.312 DEBUG: Window max width/height = 944/512
+- 00:28:47.312 DEBUG: Window max size exceeded, new width/height = 944/512
+- 00:28:47.312 DEBUG: GetBrowserWindow(): not found, hwnd = 2491220
+- 00:28:47.312 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:28:47.312 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:28:47.312 DEBUG: StoreBrowserWindow(): hwnd = 2491220
+- 00:28:47.312 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:28:47.327 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:28:47.343 DEBUG: ClientHandler::OnAfterCreated()
+- 00:28:47.343 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:28:47.343 INFO: DPI, ppix = 96, ppiy = 96
+- 00:28:47.343 INFO: DPI, browser zoom level = 0
+- 00:28:47.374 DEBUG: OnLoadingStateChange: loading = 1
+- 00:28:47.000 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="3364.0.796917174\741950976" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2697 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 00:28:47.000 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --disable-accelerated-video-decode --channel="3364.1.585911878\1606834849" /prefetch:673131151
+- 00:28:48.109 DEBUG: OnBrowserCreated()
+[0615/002852:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:28:55.205 INFO: GET 302 /
+- 00:28:56.533 INFO: GET 200 /index.php/login
+- 00:28:56.081 DEBUG: OnContextCreated()
+- 00:28:56.845 DEBUG: OnLoadingStateChange: loading = 0
+[0615/002857:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002902:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:29:04.723 DEBUG: OnLoadingStateChange: loading = 1
+- 00:29:04.629 DEBUG: OnContextCreated()
+- 00:29:04.097 INFO: POST 200 /index.php/login/process
+- 00:29:04.113 DEBUG: OnLoadingStateChange: loading = 0
+[0615/002907:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002912:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002917:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002922:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002927:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002932:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002937:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002942:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002947:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002952:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/002957:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003002:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003007:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003013:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003018:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003023:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003028:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003033:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003038:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003043:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003048:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003053:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003058:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003103:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003108:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003113:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003118:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003123:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003128:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003133:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003138:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:31:39.694 DEBUG: WM_DESTROY
+- 00:31:39.694 DEBUG: RemoveBrowserWindow(): hwnd = 2491220
+- 00:31:39.694 INFO: Stopping Mongoose web server
+- 00:31:39.694 DEBUG: Mongoose webserver stopped immediately
+- 00:31:39.694 DEBUG: RemoveBrowserWindow(): hwnd = 2490756
+- 00:31:39.694 DEBUG: GetBrowserWindow(): not found, hwnd = 2490756
+- 00:31:39.694 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:31:39.726 INFO: Ended application
+- 00:31:39.726 INFO: --------------------------------------------------------
+- 00:31:46.016 INFO: --------------------------------------------------------
+- 00:31:46.016 INFO: Started application
+- 00:31:46.016 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 00:31:46.016 INFO: Log level = DEBUG4
+- 00:31:46.016 INFO: Starting Mongoose 3.9b web server
+- 00:31:46.016 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 00:31:46.016 INFO: Index files: index.html,index.php
+- 00:31:46.016 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 00:31:46.016 INFO: CGI pattern: **.php$
+- 00:31:46.016 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:31:46.031 INFO: Web server url: http://127.0.0.1:50035/
+- 00:31:46.031 INFO: remote_debugging_port = 53616
+- 00:31:46.031 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=53616 --no-sandbox
+[0615/003146:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:31:46.109 DEBUG: App::OnContextInitialized()
+- 00:31:46.109 DEBUG: Window max width/height = 944/512
+- 00:31:46.109 DEBUG: Window max size exceeded, new width/height = 944/512
+- 00:31:46.109 DEBUG: GetBrowserWindow(): not found, hwnd = 852810
+- 00:31:46.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:31:46.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:31:46.109 DEBUG: StoreBrowserWindow(): hwnd = 852810
+- 00:31:46.109 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:31:46.125 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:31:47.140 DEBUG: ClientHandler::OnAfterCreated()
+- 00:31:47.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:31:47.140 INFO: DPI, ppix = 96, ppiy = 96
+- 00:31:47.140 INFO: DPI, browser zoom level = 0
+- 00:31:47.172 DEBUG: OnLoadingStateChange: loading = 1
+- 00:31:47.000 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="4032.0.666727958\1362450001" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2697 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 00:31:47.000 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --disable-accelerated-video-decode --channel="4032.1.1684817928\109711527" /prefetch:673131151
+- 00:31:47.031 DEBUG: OnBrowserCreated()
+- 00:31:47.702 INFO: GET 302 /
+- 00:31:47.030 INFO: GET 200 /index.php/login
+- 00:31:47.780 DEBUG: OnContextCreated()
+- 00:31:48.357 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003151:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:31:55.377 DEBUG: OnLoadingStateChange: loading = 1
+- 00:31:55.736 INFO: POST 302 /index.php/login/process
+- 00:31:55.830 DEBUG: OnContextCreated()
+- 00:31:55.095 INFO: GET 200 /index.php/home
+- 00:31:56.688 INFO: GET 200 /assets/fonts/glyphicons-halflings-regular.woff
+- 00:31:56.766 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003156:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003202:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:05.502 DEBUG: OnLoadingStateChange: loading = 1
+- 00:32:05.845 INFO: GET 200 /index.php/view
+- 00:32:05.580 DEBUG: OnContextCreated()
+- 00:32:05.923 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003207:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003212:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003217:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:21.085 DEBUG: OnLoadingStateChange: loading = 1
+[0615/003222:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:22.163 DEBUG: OnContextCreated()
+- 00:32:22.428 INFO: POST 200 /index.php/view/date
+- 00:32:22.490 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003227:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003232:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003237:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:38.480 DEBUG: OnLoadingStateChange: loading = 1
+- 00:32:38.668 DEBUG: OnContextCreated()
+- 00:32:38.948 INFO: GET 200 /index.php/home/del/10
+- 00:32:38.042 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003242:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:42.287 DEBUG: OnLoadingStateChange: loading = 1
+- 00:32:42.365 DEBUG: OnContextCreated()
+- 00:32:42.630 INFO: GET 200 /index.php/search
+- 00:32:42.724 DEBUG: OnLoadingStateChange: loading = 0
+- 00:32:47.154 DEBUG: OnLoadingStateChange: loading = 1
+[0615/003247:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:47.513 INFO: POST 200 /index.php/search/find
+- 00:32:47.248 DEBUG: OnContextCreated()
+- 00:32:47.560 DEBUG: OnLoadingStateChange: loading = 0
+- 00:32:51.475 DEBUG: OnLoadingStateChange: loading = 1
+- 00:32:51.663 DEBUG: OnContextCreated()
+- 00:32:51.943 INFO: GET 200 /index.php/home/del/9
+- 00:32:51.053 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003252:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:32:55.360 DEBUG: OnLoadingStateChange: loading = 1
+- 00:32:55.454 DEBUG: OnContextCreated()
+- 00:32:55.719 INFO: GET 200 /index.php/search
+- 00:32:55.797 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003257:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003302:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:33:04.377 DEBUG: OnLoadingStateChange: loading = 1
+- 00:33:04.455 DEBUG: OnContextCreated()
+- 00:33:04.720 INFO: GET 200 /index.php
+- 00:33:04.829 DEBUG: OnLoadingStateChange: loading = 0
+- 00:33:06.122 DEBUG: WM_DESTROY
+- 00:33:06.122 DEBUG: RemoveBrowserWindow(): hwnd = 852810
+- 00:33:06.122 INFO: Stopping Mongoose web server
+- 00:33:06.122 DEBUG: Mongoose webserver stopped immediately
+- 00:33:06.122 DEBUG: RemoveBrowserWindow(): hwnd = 1114914
+- 00:33:06.122 DEBUG: GetBrowserWindow(): not found, hwnd = 1114914
+- 00:33:06.122 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:33:07.153 INFO: Ended application
+- 00:33:07.153 INFO: --------------------------------------------------------
+- 00:33:07.920 DEBUG: OnBrowserDestroyed()
+- 00:33:22.000 INFO: --------------------------------------------------------
+- 00:33:22.000 INFO: Started application
+- 00:33:22.000 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 00:33:22.000 INFO: Log level = DEBUG4
+- 00:33:22.000 INFO: Starting Mongoose 3.9b web server
+- 00:33:22.000 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 00:33:22.000 INFO: Index files: index.html,index.php
+- 00:33:22.000 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 00:33:22.000 INFO: CGI pattern: **.php$
+- 00:33:22.000 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:33:22.016 INFO: Web server url: http://127.0.0.1:50035/
+- 00:33:22.016 INFO: remote_debugging_port = 52183
+- 00:33:22.016 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=52183 --no-sandbox
+[0615/003322:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:33:22.094 DEBUG: App::OnContextInitialized()
+- 00:33:22.094 DEBUG: Window max width/height = 944/512
+- 00:33:22.094 DEBUG: Window max size exceeded, new width/height = 944/512
+- 00:33:22.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2621902
+- 00:33:22.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:33:22.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:33:22.094 DEBUG: StoreBrowserWindow(): hwnd = 2621902
+- 00:33:22.094 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:33:22.125 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:33:22.141 DEBUG: ClientHandler::OnAfterCreated()
+- 00:33:22.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:33:22.156 INFO: DPI, ppix = 96, ppiy = 96
+- 00:33:22.156 INFO: DPI, browser zoom level = 0
+- 00:33:22.172 DEBUG: OnLoadingStateChange: loading = 1
+- 00:33:22.016 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="4516.0.480636349\1149258285" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --disable-accelerated-video-decode --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2697 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 00:33:22.000 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --disable-accelerated-video-decode --channel="4516.1.971576539\379481571" /prefetch:673131151
+- 00:33:22.031 DEBUG: OnBrowserCreated()
+- 00:33:23.734 INFO: GET 302 /
+- 00:33:23.077 INFO: GET 200 /index.php/login
+- 00:33:23.826 DEBUG: OnContextCreated()
+- 00:33:23.404 DEBUG: OnLoadingStateChange: loading = 0
+[0615/003327:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+[0615/003332:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:33:36.931 DEBUG: OnLoadingStateChange: loading = 1
+- 00:33:36.259 INFO: POST 302 /index.php/login/process
+- 00:33:37.352 DEBUG: OnContextCreated()
+- 00:33:37.618 INFO: GET 200 /index.php/home
+[0615/003337:WARNING:dns_config_service_win.cc(653)] Failed to read DnsConfig.
+- 00:33:37.242 DEBUG: OnLoadingStateChange: loading = 0
+- 00:33:40.346 DEBUG: WM_DESTROY
+- 00:33:40.346 DEBUG: RemoveBrowserWindow(): hwnd = 2621902
+- 00:33:40.346 INFO: Stopping Mongoose web server
+- 00:33:40.346 DEBUG: Mongoose webserver stopped immediately
+- 00:33:40.346 DEBUG: RemoveBrowserWindow(): hwnd = 2490612
+- 00:33:40.346 DEBUG: GetBrowserWindow(): not found, hwnd = 2490612
+- 00:33:40.346 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:33:40.377 INFO: Ended application
+- 00:33:40.377 INFO: --------------------------------------------------------
+- 00:33:40.127 DEBUG: OnBrowserDestroyed()
+- 15:12:00.000 INFO: --------------------------------------------------------
+- 15:12:00.000 INFO: Started application
+- 15:12:00.000 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 15:12:00.000 INFO: Log level = DEBUG4
+- 15:12:00.000 INFO: Starting Mongoose 3.9b web server
+- 15:12:00.000 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 15:12:00.000 INFO: Index files: index.html,index.php
+- 15:12:00.000 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 15:12:00.000 INFO: CGI pattern: **.php$
+- 15:12:00.000 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 15:12:00.016 INFO: Web server url: http://127.0.0.1:50035/
+- 15:12:00.016 INFO: remote_debugging_port = 52014
+- 15:12:00.016 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=52014 --no-sandbox
+[0617/151200:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+- 15:12:00.047 DEBUG: App::OnContextInitialized()
+- 15:12:00.047 DEBUG: Window max width/height = 1286/680
+- 15:12:00.047 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 15:12:00.047 DEBUG: GetBrowserWindow(): not found, hwnd = 459660
+- 15:12:00.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:12:00.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:12:00.047 DEBUG: StoreBrowserWindow(): hwnd = 459660
+- 15:12:00.063 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 15:12:00.094 DEBUG: ClientHandler::OnAfterCreated()
+- 15:12:00.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:12:00.094 INFO: DPI, ppix = 96, ppiy = 96
+- 15:12:00.094 INFO: DPI, browser zoom level = 0
+- 15:12:00.094 DEBUG: OnLoadingStateChange: loading = 1
+- 15:12:00.000 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="3668.0.1516662018\1389518622" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2857 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 15:12:00.000 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --channel="3668.1.1754634160\1554257593" /prefetch:673131151
+- 15:12:00.016 DEBUG: OnBrowserCreated()
+- 15:12:02.469 INFO: GET 302 /
+- 15:12:02.578 INFO: GET 200 /index.php/login
+- 15:12:02.453 DEBUG: OnContextCreated()
+- 15:12:02.688 DEBUG: OnLoadingStateChange: loading = 0
+- 15:12:05.610 DEBUG: WM_DESTROY
+- 15:12:05.610 DEBUG: RemoveBrowserWindow(): hwnd = 459660
+- 15:12:05.610 INFO: Stopping Mongoose web server
+- 15:12:05.610 DEBUG: Mongoose webserver stopped immediately
+- 15:12:05.610 DEBUG: RemoveBrowserWindow(): hwnd = 132114
+- 15:12:05.610 DEBUG: GetBrowserWindow(): not found, hwnd = 132114
+- 15:12:05.610 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:12:05.625 INFO: Ended application
+- 15:12:05.625 INFO: --------------------------------------------------------
+- 15:12:05.500 DEBUG: OnBrowserDestroyed()
+- 15:15:13.000 INFO: --------------------------------------------------------
+- 15:15:13.000 INFO: Started application
+- 15:15:13.000 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 15:15:13.000 INFO: Log level = DEBUG4
+- 15:15:13.000 INFO: Starting Mongoose 3.9b web server
+- 15:15:13.000 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 15:15:13.000 INFO: Index files: index.html,index.php
+- 15:15:13.000 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 15:15:13.000 INFO: CGI pattern: **.php$
+- 15:15:13.000 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 15:15:13.000 INFO: Web server url: http://127.0.0.1:50035/
+- 15:15:13.000 INFO: remote_debugging_port = 55059
+- 15:15:13.000 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=55059 --no-sandbox
+[0617/151513:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+- 15:15:13.015 DEBUG: App::OnContextInitialized()
+- 15:15:13.015 DEBUG: Window max width/height = 1286/680
+- 15:15:13.015 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 15:15:13.015 DEBUG: GetBrowserWindow(): not found, hwnd = 459770
+- 15:15:13.015 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:15:13.015 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:15:13.015 DEBUG: StoreBrowserWindow(): hwnd = 459770
+- 15:15:13.031 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 15:15:13.047 DEBUG: ClientHandler::OnAfterCreated()
+- 15:15:13.047 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:15:13.047 INFO: DPI, ppix = 96, ppiy = 96
+- 15:15:13.047 INFO: DPI, browser zoom level = 0
+- 15:15:13.047 DEBUG: OnLoadingStateChange: loading = 1
+- 15:15:13.000 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="1920.0.1395612653\117323038" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2857 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 15:15:13.000 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --channel="1920.1.63684666\215859544" /prefetch:673131151
+- 15:15:13.000 DEBUG: OnBrowserCreated()
+- 15:15:14.234 INFO: GET 302 /
+- 15:15:14.328 INFO: GET 200 /index.php/login
+- 15:15:14.265 DEBUG: OnContextCreated()
+- 15:15:15.422 DEBUG: OnLoadingStateChange: loading = 0
+- 15:15:21.547 DEBUG: OnLoadingStateChange: loading = 1
+- 15:15:21.625 INFO: POST 302 /index.php/login/process
+- 15:15:21.609 DEBUG: OnContextCreated()
+- 15:15:21.687 INFO: GET 200 /index.php/home
+- 15:15:21.937 DEBUG: OnLoadingStateChange: loading = 0
+- 15:16:40.062 DEBUG: OnLoadingStateChange: loading = 1
+- 15:16:40.265 INFO: POST 302 /index.php/home/add
+- 15:16:41.312 DEBUG: OnContextCreated()
+- 15:16:41.390 INFO: GET 200 /index.php/home
+- 15:16:41.437 DEBUG: OnLoadingStateChange: loading = 0
+- 15:16:43.593 DEBUG: OnLoadingStateChange: loading = 1
+- 15:16:43.594 DEBUG: OnContextCreated()
+- 15:16:43.672 INFO: GET 200 /index.php/view
+- 15:16:43.687 DEBUG: OnLoadingStateChange: loading = 0
+- 15:17:00.156 DEBUG: OnLoadingStateChange: loading = 1
+- 15:17:00.250 INFO: POST 200 /index.php/view/date
+- 15:17:00.172 DEBUG: OnContextCreated()
+- 15:17:00.250 DEBUG: OnLoadingStateChange: loading = 0
+- 15:17:22.125 DEBUG: OnLoadingStateChange: loading = 1
+- 15:17:22.125 DEBUG: OnContextCreated()
+- 15:17:22.218 INFO: GET 200 /index.php
+- 15:17:22.234 DEBUG: OnLoadingStateChange: loading = 0
+- 15:29:09.375 DEBUG: OnLoadingStateChange: loading = 1
+- 15:29:09.390 DEBUG: OnContextCreated()
+- 15:29:09.468 INFO: GET 200 /index.php/search
+- 15:29:09.515 DEBUG: OnLoadingStateChange: loading = 0
+- 15:29:14.375 DEBUG: OnLoadingStateChange: loading = 1
+- 15:29:15.406 DEBUG: OnContextCreated()
+- 15:29:15.484 INFO: POST 200 /index.php/search/find
+- 15:29:15.500 DEBUG: OnLoadingStateChange: loading = 0
+- 15:29:19.515 DEBUG: OnLoadingStateChange: loading = 1
+- 15:29:19.515 DEBUG: OnContextCreated()
+- 15:29:19.593 INFO: GET 200 /index.php
+- 15:29:19.625 DEBUG: OnLoadingStateChange: loading = 0
+- 15:29:21.281 DEBUG: WM_DESTROY
+- 15:29:21.281 DEBUG: RemoveBrowserWindow(): hwnd = 459770
+- 15:29:21.281 INFO: Stopping Mongoose web server
+- 15:29:21.281 DEBUG: Mongoose webserver stopped immediately
+- 15:29:21.281 DEBUG: RemoveBrowserWindow(): hwnd = 656340
+- 15:29:21.281 DEBUG: GetBrowserWindow(): not found, hwnd = 656340
+- 15:29:21.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:29:21.297 INFO: Ended application
+- 15:29:21.297 INFO: --------------------------------------------------------
+- 10:05:47.078 INFO: --------------------------------------------------------
+- 10:05:47.094 INFO: Started application
+- 10:05:47.094 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 10:05:47.094 INFO: Log level = DEBUG4
+- 10:05:47.094 INFO: Starting Mongoose 3.9b web server
+- 10:05:47.094 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 10:05:47.094 INFO: Index files: index.html,index.php
+- 10:05:47.094 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 10:05:47.094 INFO: CGI pattern: **.php$
+- 10:05:47.094 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 10:05:47.110 INFO: Web server url: http://127.0.0.1:50035/
+- 10:05:47.110 INFO: remote_debugging_port = 51683
+- 10:05:47.250 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=51683 --no-sandbox
+- 10:05:48.453 DEBUG: App::OnContextInitialized()
+- 10:05:48.453 DEBUG: Window max width/height = 1286/680
+- 10:05:48.453 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 10:05:48.453 DEBUG: GetBrowserWindow(): not found, hwnd = 2163642
+- 10:05:48.453 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:05:48.453 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:05:48.453 DEBUG: StoreBrowserWindow(): hwnd = 2163642
+- 10:05:48.453 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 10:05:48.015 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="7052.0.1502767268\811004451" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2857 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 10:05:49.953 DEBUG: ClientHandler::OnAfterCreated()
+- 10:05:49.953 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:05:49.953 INFO: DPI, ppix = 96, ppiy = 96
+- 10:05:49.953 INFO: DPI, browser zoom level = 0
+- 10:05:49.016 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --channel="7052.1.100934627\1755144256" /prefetch:673131151
+- 10:05:49.469 DEBUG: OnLoadingStateChange: loading = 1
+- 10:05:51.078 DEBUG: OnBrowserCreated()
+- 10:05:55.485 INFO: GET 302 /
+- 10:05:56.735 INFO: GET 200 /index.php/login
+- 10:05:56.813 DEBUG: OnContextCreated()
+- 10:05:56.110 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:05:56.110 INFO: GET 304 /assets/css/bootstrap.css
+- 10:05:56.219 INFO: GET 304 /assets/js/bootstrap.js
+- 10:05:56.219 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:05:57.688 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:06.828 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:06.110 INFO: POST 200 /index.php/login/process
+- 10:06:06.922 DEBUG: OnContextCreated()
+- 10:06:06.141 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:06.141 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:06.141 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:06.141 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:06.203 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:08.031 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:08.969 DEBUG: OnContextCreated()
+- 10:06:08.172 INFO: GET 200 /index.php/help
+- 10:06:08.203 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:08.203 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:08.203 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:08.219 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:08.344 INFO: GET 304 /assets/fonts/glyphicons-halflings-regular.woff
+- 10:06:08.422 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:21.828 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:21.922 INFO: GET 302 /index.php
+- 10:06:21.797 DEBUG: OnContextCreated()
+- 10:06:21.000 INFO: GET 200 /index.php/login
+- 10:06:21.016 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:21.016 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:21.016 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:21.016 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:21.031 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:29.906 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:29.000 INFO: POST 302 /index.php/login/process
+- 10:06:29.985 DEBUG: OnContextCreated()
+- 10:06:29.188 INFO: GET 200 /index.php/home
+- 10:06:29.203 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:29.203 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:29.219 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:29.219 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:29.250 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:35.891 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:35.860 DEBUG: OnContextCreated()
+- 10:06:35.063 INFO: GET 200 /index.php/view
+- 10:06:35.078 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:35.078 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:35.078 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:35.078 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:35.110 DEBUG: OnLoadingStateChange: loading = 0
+- 10:06:40.688 DEBUG: OnLoadingStateChange: loading = 1
+- 10:06:40.813 INFO: GET 200 /index.php/search
+- 10:06:40.625 DEBUG: OnContextCreated()
+- 10:06:40.828 INFO: GET 304 /assets/css/bootstrap.css
+- 10:06:40.828 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:06:40.828 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 10:06:40.828 INFO: GET 304 /assets/js/bootstrap.js
+- 10:06:40.844 DEBUG: OnLoadingStateChange: loading = 0
+- 10:07:07.563 DEBUG: OnLoadingStateChange: loading = 1
+- 10:07:07.500 DEBUG: OnContextCreated()
+- 10:07:07.703 INFO: POST 200 /index.php/search/find
+- 10:07:07.703 INFO: GET 304 /assets/css/bootstrap.css
+- 10:07:07.703 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 10:07:07.735 DEBUG: OnLoadingStateChange: loading = 0
+- 10:07:32.500 DEBUG: WM_DESTROY
+- 10:07:32.500 DEBUG: RemoveBrowserWindow(): hwnd = 2163642
+- 10:07:32.500 INFO: Stopping Mongoose web server
+- 10:07:32.500 DEBUG: Mongoose webserver stopped immediately
+- 10:07:32.500 DEBUG: RemoveBrowserWindow(): hwnd = 524758
+- 10:07:32.500 DEBUG: GetBrowserWindow(): not found, hwnd = 524758
+- 10:07:32.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:07:33.594 INFO: Ended application
+- 10:07:33.594 INFO: --------------------------------------------------------
+- 00:46:08.875 INFO: --------------------------------------------------------
+- 00:46:08.921 INFO: Started application
+- 00:46:08.921 INFO: Logging to: D:\APPDEV\PilotLogbook_v1\debug.log
+- 00:46:08.921 INFO: Log level = DEBUG4
+- 00:46:08.921 INFO: Starting Mongoose 3.9b web server
+- 00:46:08.921 INFO: WWW directory: D:\APPDEV\PilotLogbook_v1\www
+- 00:46:08.921 INFO: Index files: index.html,index.php
+- 00:46:08.921 INFO: CGI interpreter: D:\APPDEV\PilotLogbook_v1\php\php-cgi.exe
+- 00:46:08.921 INFO: CGI pattern: **.php$
+- 00:46:08.921 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 00:46:08.937 INFO: Web server url: http://127.0.0.1:50035/
+- 00:46:09.000 INFO: remote_debugging_port = 59868
+- 00:46:10.593 DEBUG: Command line string for the browser process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --remote-debugging-port=59868 --no-sandbox
+- 00:46:24.328 DEBUG: App::OnContextInitialized()
+- 00:46:24.343 DEBUG: Window max width/height = 1286/680
+- 00:46:24.343 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 00:46:24.343 DEBUG: GetBrowserWindow(): not found, hwnd = 460618
+- 00:46:24.343 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:46:24.343 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:46:24.343 DEBUG: StoreBrowserWindow(): hwnd = 460618
+- 00:46:24.343 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:46:24.016 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="4360.0.1415927962\2012603592" --no-sandbox --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2857 --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 00:46:24.828 DEBUG: ClientHandler::OnAfterCreated()
+- 00:46:24.828 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:46:24.843 INFO: DPI, ppix = 96, ppiy = 96
+- 00:46:24.843 INFO: DPI, browser zoom level = 0
+- 00:46:25.032 DEBUG: Command line string for the renderer process: "D:\APPDEV\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\PilotLogbook_v1\debug.log" --channel="4360.1.1331547091\247981332" /prefetch:673131151
+- 00:46:25.734 DEBUG: OnLoadingStateChange: loading = 1
+- 00:46:28.547 DEBUG: OnBrowserCreated()
+- 00:46:35.078 INFO: GET 302 /
+- 00:46:36.765 INFO: GET 200 /index.php/login
+- 00:46:41.344 DEBUG: OnContextCreated()
+- 00:46:42.578 INFO: GET 304 /assets/css/bootstrap.css
+- 00:46:42.578 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:46:43.937 INFO: GET 304 /assets/js/bootstrap.js
+- 00:46:43.937 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:46:50.109 DEBUG: OnLoadingStateChange: loading = 0
+- 00:46:56.203 DEBUG: OnLoadingStateChange: loading = 1
+- 00:46:56.468 INFO: GET 200 /index.php/help
+- 00:46:58.344 DEBUG: OnContextCreated()
+- 00:46:59.937 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:46:59.937 INFO: GET 304 /assets/css/bootstrap.css
+- 00:46:59.953 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:46:59.953 INFO: GET 304 /assets/js/bootstrap.js
+- 00:46:59.156 INFO: GET 304 /assets/fonts/glyphicons-halflings-regular.woff
+- 00:47:03.984 DEBUG: OnLoadingStateChange: loading = 0
+- 00:47:07.437 DEBUG: OnLoadingStateChange: loading = 1
+- 00:47:07.860 DEBUG: OnContextCreated()
+- 00:47:07.484 DEBUG: OnLoadingStateChange: loading = 0
+- 00:47:23.906 DEBUG: OnLoadingStateChange: loading = 1
+- 00:47:24.140 INFO: POST 302 /index.php/login/process
+- 00:47:27.156 INFO: GET 200 /index.php/home
+- 00:47:30.953 DEBUG: OnContextCreated()
+- 00:47:30.562 INFO: GET 304 /assets/css/bootstrap.css
+- 00:47:30.562 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:47:30.609 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:47:30.609 INFO: GET 304 /assets/js/bootstrap.js
+- 00:47:30.656 DEBUG: OnLoadingStateChange: loading = 0
+- 00:48:44.875 DEBUG: OnLoadingStateChange: loading = 1
+- 00:48:45.156 INFO: POST 302 /index.php/home/add
+- 00:48:46.359 INFO: GET 200 /index.php/home
+- 00:48:46.782 DEBUG: OnContextCreated()
+- 00:48:46.375 INFO: GET 304 /assets/css/bootstrap.css
+- 00:48:46.375 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:48:46.375 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:48:46.375 INFO: GET 304 /assets/js/bootstrap.js
+- 00:48:46.406 DEBUG: OnLoadingStateChange: loading = 0
+- 00:48:51.515 DEBUG: OnLoadingStateChange: loading = 1
+- 00:48:51.671 INFO: GET 200 /index.php/view
+- 00:48:52.860 DEBUG: OnContextCreated()
+- 00:48:52.468 INFO: GET 304 /assets/css/bootstrap.css
+- 00:48:52.468 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:48:52.468 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:48:52.468 INFO: GET 304 /assets/js/bootstrap.js
+- 00:48:52.500 DEBUG: OnLoadingStateChange: loading = 0
+- 00:49:48.125 DEBUG: OnLoadingStateChange: loading = 1
+- 00:49:48.343 INFO: POST 200 /index.php/view/date
+- 00:49:50.313 DEBUG: OnContextCreated()
+- 00:49:50.906 INFO: GET 304 /assets/css/bootstrap.css
+- 00:49:50.906 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:49:50.937 DEBUG: OnLoadingStateChange: loading = 0
+- 00:50:03.453 DEBUG: OnLoadingStateChange: loading = 1
+- 00:50:03.640 INFO: GET 200 /index.php/search
+- 00:50:06.313 DEBUG: OnContextCreated()
+- 00:50:06.906 INFO: GET 304 /assets/css/bootstrap.css
+- 00:50:06.906 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:50:06.906 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:50:06.906 INFO: GET 304 /assets/js/bootstrap.js
+- 00:50:07.937 DEBUG: OnLoadingStateChange: loading = 0
+- 00:50:22.265 DEBUG: OnLoadingStateChange: loading = 1
+- 00:50:22.375 INFO: POST 200 /index.php/search/find
+- 00:50:26.313 DEBUG: OnContextCreated()
+- 00:50:26.906 INFO: GET 304 /assets/css/bootstrap.css
+- 00:50:26.906 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:50:26.937 DEBUG: OnLoadingStateChange: loading = 0
+- 00:50:39.359 DEBUG: OnLoadingStateChange: loading = 1
+- 00:50:39.484 INFO: GET 200 /index.php/search
+- 00:50:39.907 DEBUG: OnContextCreated()
+- 00:50:39.500 INFO: GET 304 /assets/css/bootstrap.css
+- 00:50:39.500 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:50:39.515 INFO: GET 304 /assets/js/bootstrap.js
+- 00:50:39.515 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:50:39.531 DEBUG: OnLoadingStateChange: loading = 0
+- 00:50:46.843 DEBUG: OnLoadingStateChange: loading = 1
+- 00:50:47.953 INFO: POST 200 /index.php/search/find
+- 00:50:50.313 DEBUG: OnContextCreated()
+- 00:50:50.906 INFO: GET 304 /assets/css/bootstrap.css
+- 00:50:50.906 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:50:50.921 DEBUG: OnLoadingStateChange: loading = 0
+- 00:50:55.625 DEBUG: OnLoadingStateChange: loading = 1
+- 00:50:55.750 INFO: GET 200 /index.php/search
+- 00:50:55.172 DEBUG: OnContextCreated()
+- 00:50:55.765 INFO: GET 304 /assets/css/bootstrap.css
+- 00:50:55.765 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:50:55.765 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:50:55.765 INFO: GET 304 /assets/js/bootstrap.js
+- 00:50:55.781 DEBUG: OnLoadingStateChange: loading = 0
+- 00:53:17.078 DEBUG: OnLoadingStateChange: loading = 1
+- 00:53:17.187 INFO: POST 200 /index.php/search/find
+- 00:53:17.594 DEBUG: OnContextCreated()
+- 00:53:17.203 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:53:17.203 INFO: GET 304 /assets/css/bootstrap.css
+- 00:53:17.203 DEBUG: OnLoadingStateChange: loading = 0
+- 00:53:22.265 DEBUG: OnLoadingStateChange: loading = 1
+- 00:53:22.375 INFO: GET 200 /index.php
+- 00:53:24.750 DEBUG: OnContextCreated()
+- 00:53:24.359 INFO: GET 304 /assets/css/bootstrap.css
+- 00:53:24.359 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 00:53:24.359 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 00:53:24.359 INFO: GET 304 /assets/js/bootstrap.js
+- 00:53:24.406 DEBUG: OnLoadingStateChange: loading = 0
+- 00:53:32.734 DEBUG: WM_DESTROY
+- 00:53:32.734 DEBUG: RemoveBrowserWindow(): hwnd = 460618
+- 00:53:32.734 INFO: Stopping Mongoose web server
+- 00:53:32.734 DEBUG: Mongoose webserver stopped immediately
+- 00:53:32.734 DEBUG: RemoveBrowserWindow(): hwnd = 2557736
+- 00:53:32.734 DEBUG: GetBrowserWindow(): not found, hwnd = 2557736
+- 00:53:32.734 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:53:32.219 DEBUG: OnBrowserDestroyed()
+- 00:53:33.968 INFO: Ended application
+- 00:53:33.968 INFO: --------------------------------------------------------
+- 12:55:34.140 INFO: --------------------------------------------------------
+- 12:55:34.156 INFO: Started application
+- 12:55:34.156 INFO: Logging to: D:\APPDEV\WebDev\PilotLogbook_v1\debug.log
+- 12:55:34.156 INFO: Log level = DEBUG4
+- 12:55:34.156 INFO: Starting Mongoose 3.9b web server
+- 12:55:34.156 INFO: WWW directory: D:\APPDEV\WebDev\PilotLogbook_v1\www
+- 12:55:34.156 INFO: Index files: index.html,index.php
+- 12:55:34.156 INFO: CGI interpreter: D:\APPDEV\WebDev\PilotLogbook_v1\php\php-cgi.exe
+- 12:55:34.156 INFO: CGI pattern: **.php$
+- 12:55:34.156 INFO: CGI environment variables set: TMP=C:\Users\TANIM\AppData\Local\Temp\,TEMP=C:\Users\TANIM\AppData\Local\Temp\,TMPDIR=C:\Users\TANIM\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.6
+- 12:55:34.156 INFO: Web server url: http://127.0.0.1:50035/
+- 12:55:34.171 INFO: remote_debugging_port = 53418
+- 12:55:35.281 DEBUG: Command line string for the browser process: "D:\APPDEV\WebDev\PilotLogbook_v1\phpdesktop-chrome.exe" --lang=en-US --log-file="D:\APPDEV\WebDev\PilotLogbook_v1\debug.log" --remote-debugging-port=53418 --no-sandbox
+- 12:55:36.609 DEBUG: App::OnContextInitialized()
+- 12:55:36.609 DEBUG: Window max width/height = 1286/680
+- 12:55:36.609 DEBUG: Window max size exceeded, new width/height = 1024/680
+- 12:55:36.625 DEBUG: GetBrowserWindow(): not found, hwnd = 918228
+- 12:55:36.625 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:55:36.625 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:55:36.625 DEBUG: StoreBrowserWindow(): hwnd = 918228
+- 12:55:36.625 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:55:36.016 DEBUG: Command line string for the gpu-process process: "D:\APPDEV\WebDev\PilotLogbook_v1\phpdesktop-chrome.exe" --type=gpu-process --channel="4360.0.1873240188\97424782" --no-sandbox --lang=en-US --log-file="D:\APPDEV\WebDev\PilotLogbook_v1\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2857 --lang=en-US --log-file="D:\APPDEV\WebDev\PilotLogbook_v1\debug.log" /prefetch:822062411
+- 12:55:36.093 DEBUG: ClientHandler::OnAfterCreated()
+- 12:55:36.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:55:36.093 INFO: DPI, ppix = 96, ppiy = 96
+- 12:55:36.093 INFO: DPI, browser zoom level = 0
+- 12:55:37.031 DEBUG: Command line string for the renderer process: "D:\APPDEV\WebDev\PilotLogbook_v1\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\APPDEV\WebDev\PilotLogbook_v1\debug.log" --channel="4360.1.1154788219\1068570063" /prefetch:673131151
+- 12:55:37.703 DEBUG: OnLoadingStateChange: loading = 1
+- 12:55:39.312 DEBUG: OnBrowserCreated()
+- 12:55:43.750 INFO: GET 302 /
+- 12:55:44.031 INFO: GET 200 /index.php/login
+- 12:55:45.281 DEBUG: OnContextCreated()
+- 12:55:45.109 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:55:45.109 INFO: GET 304 /assets/css/bootstrap.css
+- 12:55:45.140 INFO: GET 304 /assets/js/bootstrap.js
+- 12:55:45.140 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:55:47.625 DEBUG: OnLoadingStateChange: loading = 0
+- 12:56:11.484 DEBUG: OnLoadingStateChange: loading = 1
+- 12:56:11.640 INFO: GET 200 /index.php/help
+- 12:56:12.547 DEBUG: OnContextCreated()
+- 12:56:12.218 INFO: GET 304 /assets/css/bootstrap.css
+- 12:56:12.218 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:56:12.218 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:56:12.218 INFO: GET 304 /assets/js/bootstrap.js
+- 12:56:12.375 INFO: GET 304 /assets/fonts/glyphicons-halflings-regular.woff
+- 12:56:12.000 DEBUG: OnLoadingStateChange: loading = 0
+- 12:56:15.562 DEBUG: OnLoadingStateChange: loading = 1
+- 12:56:15.906 DEBUG: OnContextCreated()
+- 12:56:15.593 DEBUG: OnLoadingStateChange: loading = 0
+- 12:56:22.906 DEBUG: OnLoadingStateChange: loading = 1
+- 12:56:22.125 INFO: POST 302 /index.php/login/process
+- 12:56:23.875 INFO: GET 200 /index.php/home
+- 12:56:24.781 DEBUG: OnContextCreated()
+- 12:56:24.437 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:56:24.437 INFO: GET 304 /assets/css/bootstrap.css
+- 12:56:24.453 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:56:24.453 INFO: GET 304 /assets/js/bootstrap.js
+- 12:56:24.484 DEBUG: OnLoadingStateChange: loading = 0
+- 12:58:32.125 DEBUG: OnLoadingStateChange: loading = 1
+- 12:58:33.609 INFO: POST 302 /index.php/home/add
+- 12:58:34.984 INFO: GET 200 /index.php/home
+- 12:58:34.328 DEBUG: OnContextCreated()
+- 12:58:34.000 INFO: GET 304 /assets/css/bootstrap.css
+- 12:58:34.000 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:58:34.000 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:58:34.000 INFO: GET 304 /assets/js/bootstrap.js
+- 12:58:34.046 DEBUG: OnLoadingStateChange: loading = 0
+- 12:58:37.343 DEBUG: OnLoadingStateChange: loading = 1
+- 12:58:37.500 INFO: GET 200 /index.php/view
+- 12:58:39.781 DEBUG: OnContextCreated()
+- 12:58:39.437 INFO: GET 304 /assets/css/bootstrap.css
+- 12:58:39.437 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:58:39.437 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:58:39.437 INFO: GET 304 /assets/js/bootstrap.js
+- 12:58:39.468 DEBUG: OnLoadingStateChange: loading = 0
+- 12:58:56.687 DEBUG: OnLoadingStateChange: loading = 1
+- 12:58:56.812 INFO: POST 200 /index.php/view/date
+- 12:58:57.703 DEBUG: OnContextCreated()
+- 12:58:57.375 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:58:57.375 INFO: GET 304 /assets/css/bootstrap.css
+- 12:58:57.390 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:15.625 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:15.828 INFO: GET 200 /index.php/search
+- 12:59:16.734 DEBUG: OnContextCreated()
+- 12:59:16.406 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:16.406 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:16.406 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:59:16.406 INFO: GET 304 /assets/js/bootstrap.js
+- 12:59:16.421 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:33.437 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:33.546 INFO: POST 200 /index.php/search/find
+- 12:59:34.625 DEBUG: OnContextCreated()
+- 12:59:34.296 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:34.296 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:34.312 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:36.250 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:36.343 INFO: GET 200 /index.php/search
+- 12:59:36.703 DEBUG: OnContextCreated()
+- 12:59:36.359 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:36.359 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:36.359 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:59:36.359 INFO: GET 304 /assets/js/bootstrap.js
+- 12:59:36.375 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:39.343 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:39.453 INFO: POST 200 /index.php/search/find
+- 12:59:39.797 DEBUG: OnContextCreated()
+- 12:59:39.453 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:39.453 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:39.468 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:42.468 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:42.562 INFO: GET 200 /index.php/search
+- 12:59:42.906 DEBUG: OnContextCreated()
+- 12:59:42.578 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:42.578 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:42.578 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:59:42.578 INFO: GET 304 /assets/js/bootstrap.js
+- 12:59:42.593 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:47.578 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:47.703 INFO: POST 200 /index.php/search/find
+- 12:59:47.047 DEBUG: OnContextCreated()
+- 12:59:47.703 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:47.703 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:47.718 DEBUG: OnLoadingStateChange: loading = 0
+- 12:59:50.109 DEBUG: OnLoadingStateChange: loading = 1
+- 12:59:51.218 INFO: GET 200 /index.php/search
+- 12:59:51.562 DEBUG: OnContextCreated()
+- 12:59:51.218 INFO: GET 304 /assets/css/bootstrap.css
+- 12:59:51.218 INFO: GET 304 /assets/css/bootstrap-theme.min.css
+- 12:59:51.234 INFO: GET 304 /assets/js/jquery-2.1.0.min.js
+- 12:59:51.234 INFO: GET 304 /assets/js/bootstrap.js
+- 12:59:51.250 DEBUG: OnLoadingStateChange: loading = 0
+- 13:00:11.046 DEBUG: WM_DESTROY
+- 13:00:11.046 DEBUG: RemoveBrowserWindow(): hwnd = 918228
+- 13:00:11.046 INFO: Stopping Mongoose web server
+- 13:00:11.046 DEBUG: Mongoose webserver stopped immediately
+- 13:00:11.046 DEBUG: RemoveBrowserWindow(): hwnd = 983206
+- 13:00:11.046 DEBUG: GetBrowserWindow(): not found, hwnd = 983206
+- 13:00:11.046 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:00:12.625 DEBUG: OnBrowserDestroyed()
+- 13:00:12.390 INFO: Ended application
+- 13:00:12.390 INFO: --------------------------------------------------------
